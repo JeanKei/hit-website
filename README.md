@@ -46,7 +46,7 @@ Replace "11111111" with your actual Neo4j password.
 
 ### 4. Start the Website
 
-To start the development server, run:
+To start the website, run:
 
 ```bash
 npm run dev
