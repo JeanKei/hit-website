@@ -60,3 +60,13 @@ bun dev
 ```
 
 Then open your browser and go to: http://localhost:3000
+
+### 5. Screenshots
+
+![screenshots](public/screenshots/screen1.png)
+
+![screenshots](public/screenshots/screen2.png)
+
+![screenshots](public/screenshots/screen3.png)
+
+![screenshots](public/screenshots/screen4.png)
