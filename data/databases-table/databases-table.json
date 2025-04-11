@@ -1,0 +1,618 @@
+{
+  "pairs": [
+    {
+      "title": "Drugbank",
+      "table1": [
+        {
+          "dataSource": "Drugbank",
+          "nodes": "29,244",
+          "triplets": "1,424,790",
+          "dataRelease": "2020"
+        }
+      ],
+      "interactions": [
+        {
+          "type": "Compound: Gene",
+          "relation": "target",
+          "triplets": "19,158"
+        },
+        { "type": "Compound: Gene", "relation": "enzyme", "triplets": "4,923" },
+        { "type": "Compound: Gene", "relation": "carrier", "triplets": "720" },
+        {
+          "type": "Compound: Compound",
+          "relation": "ddi-interactor-in",
+          "triplets": "1,379,271"
+        },
+        { "type": "Compound: ATC", "relation": "x-atc", "triplets": "15,750" },
+        {
+          "type": "Compound: Disease",
+          "relation": "treats",
+          "triplets": "4,968"
+        }
+      ]
+    },
+    {
+      "title": "GNBR",
+      "table1": [
+        {
+          "dataSource": "GNBR",
+          "nodes": "149,064",
+          "triplets": "335,369",
+          "dataRelease": "2020"
+        }
+      ],
+      "interactions": [
+        {
+          "type": "Gene: Gene",
+          "relation": "(B) binding, ligand (esp. receptors)",
+          "triplets": "8,164"
+        },
+        {
+          "type": "Gene: Gene",
+          "relation": "(W) enhances response",
+          "triplets": "280"
+        },
+        {
+          "type": "Gene: Gene",
+          "relation": "(V+) activates, stimulates",
+          "triplets": "8,689"
+        },
+        {
+          "type": "Gene: Gene",
+          "relation": "(E+) increases expression/production",
+          "triplets": "10,838"
+        },
+        {
+          "type": "Gene: Gene",
+          "relation": "(E) affects expression/production (neutral)",
+          "triplets": "418"
+        },
+        {
+          "type": "Gene: Gene",
+          "relation": "(I) signaling pathway",
+          "triplets": "5,434"
+        },
+        {
+          "type": "Gene: Gene",
+          "relation": "(H) same protein or complex",
+          "triplets": "2,509"
+        },
+        {
+          "type": "Gene: Gene",
+          "relation": "(Rg) regulation",
+          "triplets": "11,018"
+        },
+        {
+          "type": "Gene: Gene",
+          "relation": "(Q) production by cell population",
+          "triplets": "19,372"
+        },
+        {
+          "type": "Gene: Disease",
+          "relation": "(U) causal mutations",
+          "triplets": "6,432"
+        },
+        {
+          "type": "Gene: Disease",
+          "relation": "(Ud) mutations affecting disease course",
+          "triplets": "407"
+        },
+        {
+          "type": "Gene: Disease",
+          "relation": "(D) drug targets",
+          "triplets": "500"
+        },
+        {
+          "type": "Gene: Disease",
+          "relation": "(J) role in pathogenesis",
+          "triplets": "30,234"
+        },
+        {
+          "type": "Gene: Disease",
+          "relation": "(Te) possible therapeutic effect",
+          "triplets": "2,836"
+        },
+        {
+          "type": "Gene: Disease",
+          "relation": "(Y) polymorphisms alter risk",
+          "triplets": "1,948"
+        },
+        {
+          "type": "Gene: Disease",
+          "relation": "(G) promotes progression",
+          "triplets": "2,055"
+        },
+        {
+          "type": "Gene: Disease",
+          "relation": "(Md) biomarkers (diagnostic)",
+          "triplets": "1,279"
+        },
+        {
+          "type": "Gene: Disease",
+          "relation": "(X) overexpression in disease",
+          "triplets": "1,324"
+        },
+        {
+          "type": "Gene: Disease",
+          "relation": "(L) improper regulation linked to disease",
+          "triplets": "48,384"
+        },
+        {
+          "type": "Compound: Gene",
+          "relation": "(A+) agonism, activation",
+          "triplets": "1,568"
+        },
+        {
+          "type": "Compound: Gene",
+          "relation": "(A-) antagonism, blocking",
+          "triplets": "1,108"
+        },
+        {
+          "type": "Compound: Gene",
+          "relation": "(B) binding, ligand (esp. receptors)",
+          "triplets": "7,170"
+        },
+        {
+          "type": "Compound: Gene",
+          "relation": "(E+) increases expression/production",
+          "triplets": "1,970"
+        },
+        {
+          "type": "Compound: Gene",
+          "relation": "(E-) decreases expression/production",
+          "triplets": "2,918"
+        },
+        {
+          "type": "Compound: Gene",
+          "relation": "(E) affects expression/production (neutral)",
+          "triplets": "32,743"
+        },
+        {
+          "type": "Compound: Gene",
+          "relation": "(N) inhibits",
+          "triplets": "12,521"
+        },
+        {
+          "type": "Compound: Gene",
+          "relation": "(O) transport, channels",
+          "triplets": "5,573"
+        },
+        {
+          "type": "Compound: Gene",
+          "relation": "(K) metabolism, pharmacokinetics",
+          "triplets": "12,411"
+        },
+        {
+          "type": "Compound: Gene",
+          "relation": "(Z) enzyme activity",
+          "triplets": "2,821"
+        },
+        {
+          "type": "Compound: Disease",
+          "relation": "(T) treatment/therapy (including investigator)",
+          "triplets": "54,020"
+        },
+        {
+          "type": "Compound: Disease",
+          "relation": "(C) inhibits cell growth (esp. cancers)",
+          "triplets": "1,739"
+        },
+        {
+          "type": "Compound: Disease",
+          "relation": "(Sa) side effect/adverse event",
+          "triplets": "16,923"
+        },
+        {
+          "type": "Compound: Disease",
+          "relation": "(Pr) prevents, suppresses",
+          "triplets": "966"
+        },
+        {
+          "type": "Compound: Disease",
+          "relation": "(Pa) alleviates, reduces",
+          "triplets": "2,619"
+        },
+        {
+          "type": "Compound: Disease",
+          "relation": "(J) role in disease pathogenesis",
+          "triplets": "1,020"
+        },
+        {
+          "type": "Compound: Disease",
+          "relation": "(Mp) biomarkers (of disease progression)",
+          "triplets": "495"
+        }
+      ]
+    },
+    {
+      "title": "Hetionet",
+      "table1": [
+        {
+          "dataSource": "Hetionet",
+          "nodes": "189,376",
+          "triplets": "2,250,197",
+          "dataRelease": "2020"
+        }
+      ],
+      "interactions": [
+        {
+          "type": "Anatomy: Gene",
+          "relation": "AdG (downregulation)",
+          "triplets": "102,240"
+        },
+        {
+          "type": "Anatomy: Gene",
+          "relation": "AeG (expression)",
+          "triplets": "526,407"
+        },
+        {
+          "type": "Anatomy: Gene",
+          "relation": "AuG (upregulation)",
+          "triplets": "97,848"
+        },
+        {
+          "type": "Disease: Anatomy",
+          "relation": "DlA (localization)",
+          "triplets": "3,602"
+        },
+        {
+          "type": "Compound: Gene",
+          "relation": "CbG (binding)",
+          "triplets": "11,571"
+        },
+        {
+          "type": "Compound: Gene",
+          "relation": "CdG (downregulation)",
+          "triplets": "21,102"
+        },
+        {
+          "type": "Compound: Gene",
+          "relation": "CuG (upregulation)",
+          "triplets": "18,756"
+        },
+        {
+          "type": "Compound: Disease",
+          "relation": "CpD (palliation)",
+          "triplets": "390"
+        },
+        {
+          "type": "Compound: Disease",
+          "relation": "CtD (treatment)",
+          "triplets": "755"
+        },
+        {
+          "type": "Compound: Compound",
+          "relation": "CrC (resemblence)",
+          "triplets": "6,486"
+        },
+        {
+          "type": "Disease: Gene",
+          "relation": "DaG (association)",
+          "triplets": "12,623"
+        },
+        {
+          "type": "Disease: Gene",
+          "relation": "DdG (downregulation)",
+          "triplets": "7,623"
+        },
+        {
+          "type": "Disease: Gene",
+          "relation": "DuG (upregulation)",
+          "triplets": "7,731"
+        },
+        {
+          "type": "Disease: Disease",
+          "relation": "DrD (resemblence)",
+          "triplets": "543"
+        },
+        {
+          "type": "Gene: Gene",
+          "relation": "GcG (covariation)",
+          "triplets": "61,690"
+        },
+        {
+          "type": "Gene: Gene",
+          "relation": "GiG (interaction)",
+          "triplets": "147,164"
+        },
+        {
+          "type": "Gene: Gene",
+          "relation": "Gr>G (regulation)",
+          "triplets": "265,672"
+        },
+        {
+          "type": "Disease: Symptom",
+          "relation": "DpS (present)",
+          "triplets": "3,357"
+        },
+        {
+          "type": "Compound: Side-effect",
+          "relation": "CcSE (causes)",
+          "triplets": "138,944"
+        },
+        {
+          "type": "Gene: Biological-process",
+          "relation": "GpBP (participation)",
+          "triplets": "559,504"
+        },
+        {
+          "type": "Gene: Molecular-function",
+          "relation": "GpMF (participation)",
+          "triplets": "97,222"
+        },
+        {
+          "type": "Gene: Cellular-component",
+          "relation": "GpCC (participation)",
+          "triplets": "73,566"
+        },
+        {
+          "type": "Gene: Pathway",
+          "relation": "GpPW (participation)",
+          "triplets": "84,372"
+        },
+        {
+          "type": "Compound: Pharmacologic-class",
+          "relation": "PCiC (inclusion)",
+          "triplets": "1,029"
+        }
+      ]
+    },
+    {
+      "title": "STRING",
+      "table1": [
+        {
+          "dataSource": "STRING",
+          "nodes": "47,538",
+          "triplets": "1,496,708",
+          "dataRelease": "2020"
+        }
+      ],
+      "interactions": [
+        { "type": "Gene: Gene", "relation": "REACTION", "triplets": "400,426" },
+        { "type": "Gene: Gene", "relation": "BINDING", "triplets": "315,875" },
+        {
+          "type": "Gene: Gene",
+          "relation": "ACTIVATION",
+          "triplets": "81,355"
+        },
+        {
+          "type": "Gene: Gene",
+          "relation": "CATALYSIS",
+          "triplets": "343,533"
+        },
+        {
+          "type": "Gene: Gene",
+          "relation": "INHIBITION",
+          "triplets": "28,959"
+        },
+        { "type": "Gene: Gene", "relation": "PTMOD", "triplets": "15,113" },
+        { "type": "Gene: Gene", "relation": "EXPRESSION", "triplets": "757" },
+        { "type": "Gene: Gene", "relation": "OTHER", "triplets": "310,690" }
+      ]
+    },
+    {
+      "title": "IntAct",
+      "table1": [
+        {
+          "dataSource": "IntAct",
+          "nodes": "34,075",
+          "triplets": "256,151",
+          "dataRelease": "2020"
+        }
+      ],
+      "interactions": [
+        {
+          "type": "Compound-Gene",
+          "relation": "DIRECT INTERACTION",
+          "triplets": "155"
+        },
+        {
+          "type": "Compound-Gene",
+          "relation": "PHYSICAL ASSOCIATION",
+          "triplets": "203"
+        },
+        {
+          "type": "Compound-Gene",
+          "relation": "ASSOCIATION",
+          "triplets": "1,447"
+        },
+        {
+          "type": "Gene-Gene",
+          "relation": "ASSOCIATION",
+          "triplets": "112,390"
+        },
+        {
+          "type": "Gene-Gene",
+          "relation": "PHYSICAL ASSOCIATION",
+          "triplets": "129,318"
+        },
+        {
+          "type": "Gene-Gene",
+          "relation": "COLOCALIZATION",
+          "triplets": "3,468"
+        },
+        {
+          "type": "Gene-Gene",
+          "relation": "DEPHOSPHORYLATION REACTION",
+          "triplets": "303"
+        },
+        {
+          "type": "Gene-Gene",
+          "relation": "CLEAVAGE REACTION",
+          "triplets": "93"
+        },
+        {
+          "type": "Gene-Gene",
+          "relation": "DIRECT INTERACTION",
+          "triplets": "6,950"
+        },
+        {
+          "type": "Gene-Gene",
+          "relation": "PHOSPHORYLATION REACTION",
+          "triplets": "1,328"
+        },
+        {
+          "type": "Gene-Gene",
+          "relation": "ADP RIBOSYLATION REACTION",
+          "triplets": "58"
+        },
+        {
+          "type": "Gene-Gene",
+          "relation": "UBIQUITINATION REACTION",
+          "triplets": "371"
+        },
+        {
+          "type": "Gene-Gene",
+          "relation": "PROTEIN CLEAVAGE",
+          "triplets": "67"
+        }
+      ]
+    },
+    {
+      "title": "DGIdb",
+      "table1": [
+        {
+          "dataSource": "DGIdb",
+          "nodes": "13,638",
+          "triplets": "26,290",
+          "dataRelease": "2020"
+        }
+      ],
+      "interactions": [
+        {
+          "type": "Compound: Gene",
+          "relation": "INHIBITOR",
+          "triplets": "5,971"
+        },
+        {
+          "type": "Compound: Gene",
+          "relation": "ANTAGONIST",
+          "triplets": "3,006"
+        },
+        { "type": "Compound: Gene", "relation": "OTHER", "triplets": "11,070" },
+        {
+          "type": "Compound: Gene",
+          "relation": "AGONIST",
+          "triplets": "3,012"
+        },
+        { "type": "Compound: Gene", "relation": "BINDER", "triplets": "143" },
+        {
+          "type": "Compound: Gene",
+          "relation": "MODULATOR",
+          "triplets": "243"
+        },
+        { "type": "Compound: Gene", "relation": "BLOCKER", "triplets": "979" },
+        {
+          "type": "Compound: Gene",
+          "relation": "CHANNEL BLOCKER",
+          "triplets": "352"
+        },
+        { "type": "Compound: Gene", "relation": "ANTIBODY", "triplets": "188" },
+        {
+          "type": "Compound: Gene",
+          "relation": "POSITIVE ALLOSTERIC MODULATOR",
+          "triplets": "618"
+        },
+        {
+          "type": "Compound: Gene",
+          "relation": "ALLOSTERIC MODULATOR",
+          "triplets": "317"
+        },
+        {
+          "type": "Compound: Gene",
+          "relation": "ACTIVATOR",
+          "triplets": "316"
+        },
+        {
+          "type": "Compound: Gene",
+          "relation": "PARTIAL AGONIST",
+          "triplets": "75"
+        }
+      ]
+    },
+    {
+      "title": "Bioarx",
+      "table1": [
+        {
+          "dataSource": "Bioarx",
+          "nodes": "12,539",
+          "triplets": "84,756",
+          "dataRelease": "2020"
+        }
+      ],
+      "interactions": [
+        {
+          "type": "Disease: Gene",
+          "relation": "Coronavirus ass host gene",
+          "triplets": "129"
+        },
+        {
+          "type": "Disease: Gene",
+          "relation": "Covid2 acc host gene",
+          "triplets": "332"
+        },
+        {
+          "type": "Gene: Gene",
+          "relation": "HumGenHumGen",
+          "triplets": "58,094"
+        },
+        { "type": "Gene: Gene", "relation": "VirGenHumGen", "triplets": "535" },
+        {
+          "type": "Compound: Gene",
+          "relation": "DrugVirGen",
+          "triplets": "1,165"
+        },
+        {
+          "type": "Compound: Gene",
+          "relation": "DrugHumGen",
+          "triplets": "24,501"
+        }
+      ]
+    },
+    {
+      "title": "Disease Ontology (DO)",
+      "table1": [
+        {
+          "dataSource": "Disease Ontology (DO)",
+          "nodes": "63,336",
+          "triplets": "49,042",
+          "dataRelease": "2023"
+        }
+      ],
+      "interactions": [
+        {
+          "type": "Disease: Disease",
+          "relation": "parentDO",
+          "triplets": "N/A"
+        },
+        { "type": "Disease: Disease", "relation": "termsDO", "triplets": "N/A" }
+      ]
+    },
+
+    {
+      "title": "Gene Ontology (GO)",
+      "table1": [
+        {
+          "dataSource": "Gene Ontology (GO)",
+          "nodes": "47,658",
+          "triplets": "68,218",
+          "dataRelease": "2023"
+        }
+      ],
+      "interactions": [
+        { "type": "GO: GO", "relation": "parentGO", "triplets": "68,218" }
+      ]
+    },
+    {
+      "title": "HGNC BioMart",
+      "table1": [
+        {
+          "dataSource": "HGNC BioMart",
+          "nodes": "78,656",
+          "triplets": "-",
+          "dataRelease": "2023"
+        }
+      ]
+    }
+  ]
+}

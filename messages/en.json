@@ -1,0 +1,73 @@
+{
+  "MainLayout": {
+    "title": "Drug Knowledge Graph"
+  },
+  "Navigation": {
+    "home": "Home",
+    "3d-visualization": "3D Visualization",
+    "databases": "Databases",
+    "about-project": "About project",
+    "contacts": "Contacts"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, ru {🇷🇺 Русский} en {🇺🇸 English} zh {🇨🇳 中文} other {Unknown}}"
+  },
+  "HomePage": {
+    "welcomeTitle": "Welcome to the Drug and Disease Knowledge Graph!",
+    "welcomeDescription": "The Drug and Disease Knowledge Graph is a tool that visualizes the relationships between drugs, diseases, biological processes, and genes in 3D.",
+    "datasetInfo": "The Dataset, with 197,303 nodes and 6,183,329 relations (triplets).",
+    "keyFeatures": "Key Features",
+    "visualizationTitle": "3D Visualization",
+    "visualizationDescription": "Dive into dynamic, interactive 3D visualizations that bring drug and disease relationships to life, enabling better data exploration and insights.",
+    "interfaceTitle": "Interactive Interface",
+    "interfaceDescription": "The user-friendly interface lets you filter data, customize views, and interact with the graph for an intuitive research experience.",
+    "databaseTitle": "Comprehensive Database",
+    "databaseDescription": "Powered by over 190,000 nodes and 6 million relationships, integrating data from a range of reputable biomedical databases like DrugBank, Gene Ontology, and more.",
+    "repurposingTitle": "Drug Repurposing",
+    "repurposingDescription": "Leveraging the RotatE algorithm, the project explores potential drug repurposing opportunities, making it easier to discover new therapeutic uses for existing drugs."
+  },
+
+  "Graph": {
+    "limitLabel": "Limit",
+    "submitButton": "Submit",
+    "relationType": "Relation Type",
+    "interaction": "Interaction",
+    "dataSources": "Data Sources",
+    "placeholder": "Enter limit",
+    "error": "Please enter a valid number"
+  },
+
+  "AboutProjectPage": {
+    "title": "About the Project",
+    "table-1-title": "Development Tools",
+    "table-1-language": "Programming Language",
+    "table-1-framework": "Framework",
+    "table-1-base": "Database",
+    "table-1-graph": "Graphics and Visualization",
+    "table-2-title": "Algorithms",
+    "table-2-language": "Programming Language",
+    "table-2-framework": "Framework",
+    "table-2-library": "Library",
+    "category": "Category",
+    "tool": "Tool"
+  },
+
+  "DatabasesPage": {
+    "title": "Database List",
+    "sub-title": "Database"
+  },
+  "ContactsPage": {
+    "title": "Contacts",
+    "university-title": "University",
+    "address-title": "Address",
+    "faculty-title": "Faculty",
+    "department-title": "Department",
+    "laboratory-title": "Laboratory",
+    "university": "Harbin Institute of Technology",
+    "address": "92 West Dazhi Street, Harbin",
+    "faculty": "School of Computer Science and Technology",
+    "department": "Computer Science and Technology",
+    "laboratory": "Room 312, Integrated Building"
+  }
+}

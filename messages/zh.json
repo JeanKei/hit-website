@@ -1,0 +1,71 @@
+{
+  "MainLayout": {
+    "title": "药物知识图谱"
+  },
+  "Navigation": {
+    "home": "首页",
+    "3d-visualization": "3D 可视化",
+    "databases": "数据库",
+    "about-project": "关于项目",
+    "contacts": "联系方式"
+  },
+  "LocaleSwitcher": {
+    "label": "更改语言",
+    "locale": "{locale, select, ru {🇷🇺 Русский} en {🇺🇸 English} zh {🇨🇳 中文} other {Unknown}}"
+  },
+  "HomePage": {
+    "welcomeTitle": "欢迎来到药物与疾病知识图谱！",
+    "welcomeDescription": "药物与疾病知识图谱是一种工具，它以 3D 方式可视化药物、疾病、生物过程和基因之间的关系。",
+    "datasetInfo": "数据集包含 197,303 个节点和 6,183,329 个关系（三元组）。",
+    "keyFeatures": "主要特点",
+    "visualizationTitle": "3D 可视化",
+    "visualizationDescription": "探索动态、交互式的 3D 可视化，使药物和疾病关系生动展现，助力数据分析和深入洞察。",
+    "interfaceTitle": "交互式界面",
+    "interfaceDescription": "用户友好的界面让您能够筛选数据、定制视图，并与图谱进行交互，从而获得直观的研究体验。",
+    "databaseTitle": "综合数据库",
+    "databaseDescription": "整合了 190,000 多个节点和 600 万个关系，涵盖 DrugBank、基因本体（Gene Ontology）等多个权威生物医学数据库的数据。",
+    "repurposingTitle": "药物再利用",
+    "repurposingDescription": "利用 RotatE 算法，该项目探索药物再利用的潜力，帮助发现现有药物的新治疗用途。"
+  },
+  "Graph": {
+    "limitLabel": "限制",
+    "submitButton": "提交",
+    "relationType": "关系类型",
+    "interaction": "交互",
+    "dataSources": "数据源",
+    "placeholder": "请输入限制",
+    "error": "请输入有效的数字"
+  },
+  "AboutProjectPage": {
+    "title": "关于项目",
+    "table-1-title": "开发工具",
+    "table-1-language": "编程语言",
+    "table-1-framework": "框架",
+    "table-1-base": "数据库",
+    "table-1-graph": "图形与可视化",
+    "table-2-title": "算法",
+    "table-2-language": "编程语言",
+    "table-2-framework": "框架",
+    "table-2-library": "库",
+    "category": "类别",
+    "tool": "工具"
+  },
+
+  "DatabasesPage": {
+    "title": "数据库列表",
+    "sub-title": "数据库"
+  },
+  "ContactsPage": {
+    "title": "联系方式",
+    "university-title": "大学",
+    "address-title": "地址",
+    "faculty-title": "学院",
+    "department-title": "部",
+    "laboratory-title": "实验室",
+    "university": "哈尔滨工业大学",
+    "address": "哈尔滨西大直街92号",
+    "faculty": "计算机科学与技术学院",
+    "department": "计算机科学与技术",
+    "laboratory": "综合楼312"
+  }
+}
